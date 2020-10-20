@@ -12,7 +12,7 @@ This project was a part of the Udacity Natural Language Processing Nanodegree. H
 ### Most Frequent Classifier
 * The first model simply creates an embedded dictionary where this is true: `pair_counts[NOUN][time] == 1244`.
 * In other words, this model simply relies on frequency for making predictions on P.O.S. , and the accuracy is fairly high, above 90%.
-* What about when a word's P.O.S. is aambiguous, like *dis*-count the noun, and dis-*count* the verb ?
+* What about when a word's P.O.S. is ambiguous, like *dis*-count the noun, and dis-*count* the verb ?
 
 ### Unigram and Bigram Counts
 
